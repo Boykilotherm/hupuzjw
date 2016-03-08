@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "张佳玮-虎扑动态",
+  "description": "涨工资在虎扑的最新个人动态",
   "version": "1.0",
 
   "browser_action": {
