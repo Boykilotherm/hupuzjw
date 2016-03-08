@@ -1,3 +1,7 @@
+// TO-DO 桌面通知
+// TO-DO 增量更新
+// TO-DO 界面美化
+
 function getImageUrl(callback, errorCallback) {
   var searchUrl = 'http://my.hupu.com/zhangjiawei/playbyplay';
   var x = new XMLHttpRequest();
