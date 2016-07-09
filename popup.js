@@ -47,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
     var htmlNew = ''
 
     for (var i = 0; i < entry.length; i++) {
-        htmlNew += '<div>' + entry[i]
-        if (link[i] !== undefined ) {
-          htmlNew += '<a href="' + link[i] + '">' + title[i] + '</a>';
-        };
-        htmlNew += '</div><br /><br />';
+      htmlNew += '<div>' + entry[i]
+      if (link[i] !== undefined) {
+        htmlNew += '<a href="' + link[i] + '">' + title[i] + '</a>';
+      };
+      htmlNew += '</div><br /><br />';
     };
     result.innerHTML = htmlNew;
     renderStatus('-------------------------------');
